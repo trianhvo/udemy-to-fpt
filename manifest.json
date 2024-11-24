@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy FPT Redirect",
+  "version": "1.0",
+  "description": "Redirect from public Udemy to FPT Udemy",
+  "content_scripts": [
+    {
+      "matches": ["https://www.udemy.com/course/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
